@@ -27,3 +27,15 @@ function setGameWin(view: CanvasView) {
     view.drawInfo('Game Won!')
     gameOver = false;
 }
+
+function gameLoop (
+    view: CanvasView,
+    ball: Ball,
+    paddle: Paddle,
+    bricks: Brick[]
+) {}
+
+function startGame (view: CanvasView) {}
+
+const view = new CanvasView('#playField')
+view.initStartButton(startGame)
