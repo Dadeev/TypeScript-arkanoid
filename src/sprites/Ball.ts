@@ -5,10 +5,10 @@ export class Ball {
     private ballImage: HTMLImageElement = new Image();
 
     constructor(
+        speed: number,
         private ballSize: number,
         private position: Vector,
-        speed: number,
-        image: string,
+        image: string
     ) {
         this.ballSize = ballSize;
         this.position = position;
@@ -30,6 +30,10 @@ export class Ball {
 
     get pos(): Vector {
         return this.position;
+    }
+
+    get image(): HTMLImageElement {
+        return this.ballImage;
     }
 
     //Methods
