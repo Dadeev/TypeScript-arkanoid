@@ -50,6 +50,7 @@ export class Paddle {
         return this.moveRight
     }
 
+    //Methods
     movePaddle(): void {
         if (this.moveLeft) this.pos.x -= this.speed
         if (this.moveRight) this.pos.x += this.speed
