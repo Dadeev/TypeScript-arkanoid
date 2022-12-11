@@ -38,6 +38,10 @@ export class Paddle {
         return this.position
     }
 
+    get image(): HTMLImageElement {
+        return this.paddleImage;
+    }
+
     get isMovingLeft(): boolean {
         return this.moveLeft
     }
