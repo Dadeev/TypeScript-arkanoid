@@ -35,7 +35,9 @@ function gameLoop (
     bricks: Brick[]
 ) {}
 
-function startGame (view: CanvasView) {}
+function startGame (view: CanvasView) {
+
+}
 
 const view = new CanvasView('#playField')
 view.initStartButton(startGame)
